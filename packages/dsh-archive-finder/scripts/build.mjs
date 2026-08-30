@@ -7,14 +7,15 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
-const profilePluginDir = "/Users/anakinwu/.dsh/profiles/web/node_modules/dsh-archive-finder";
+const HOME = process.env.HOME || "/Users/anakinwu";
+const profilePluginDir = `${HOME}/.dsh/profiles/web/node_modules/dsh-archive-finder`;
 const srcInProfile = path.join(profilePluginDir, "client/src/index.jsx");
 const entry = existsSync(srcInProfile) ? srcInProfile : path.join(root, "client/src/index.jsx");
 const tmp = path.join(root, "client", ".tmp.cjs");
 const out = path.join(root, "client", "client.js");
 
 const esbuild = [
-	"/Users/anakinwu/.hermes/hermes-agent/node_modules/.bin/esbuild",
+	`${HOME}/.hermes/hermes-agent/node_modules/.bin/esbuild`,
 	"/opt/homebrew/bin/esbuild"
 ].find((p) => existsSync(p));
 if (!esbuild) {
