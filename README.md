@@ -13,3 +13,16 @@ Each package under `packages/` declares its own `dsh.bundle` manifest and can be
 ## License
 
 MIT
+
+## Requirements
+
+- [DeepSeek Harness (DSH)](https://github.com/deepseek-ai) — the host app these plugins run in.
+
+## Repo layout
+
+```
+packages/
+  dsh-archive-finder/   # restore + auto-archive sessions
+  dsh-dsweb/            # DeepSeek web chat entry button
+  dsh-tokcnt/           # per-message token usage
+```
