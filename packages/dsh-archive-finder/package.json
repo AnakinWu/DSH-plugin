@@ -30,5 +30,12 @@
     "type": "git",
     "url": "git+https://github.com/AnakinWu/DSH-plugin.git",
     "directory": "packages/dsh-archive-finder"
-  }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "archive-finder"
+  ],
+  "homepage": "https://github.com/AnakinWu/DSH-plugin/tree/main/packages/dsh-archive-finder"
 }

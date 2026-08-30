@@ -32,5 +32,12 @@
     "type": "git",
     "url": "git+https://github.com/AnakinWu/DSH-plugin.git",
     "directory": "packages/dsh-tokcnt"
-  }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "tokcnt"
+  ],
+  "homepage": "https://github.com/AnakinWu/DSH-plugin/tree/main/packages/dsh-tokcnt"
 }
