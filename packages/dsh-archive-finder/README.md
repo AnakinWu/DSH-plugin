@@ -12,3 +12,12 @@ Install via the [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/aweso
 ## Screenshots
 
 Screenshots are declared in `screenshots.json` (to be added).
+
+## Configuration (environment variables)
+
+| Variable | Default | Meaning |
+|---|---|---|
+| `DSH_ARCHIVE_FINDER_AGE_DAYS` | `3` | Idle days before a session is auto-archived. |
+| `DSH_ARCHIVE_FINDER_AUTO` | `on` | Set `off` to disable auto-archive sweeps. |
+| `DSH_ARCHIVE_FINDER_INTERVAL_HOURS` | - | Hours between auto-archive sweeps. |
+| `DSH_ARCHIVE_FINDER_FIRST_DELAY_S` | - | Delay in seconds before the first sweep. |
