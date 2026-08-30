@@ -1,0 +1,4 @@
+# dsh-dsweb bundle patch: inserts the DeepSeek web shortcut plugin row into the web profile.
+- insert:
+    - id: dsweb
+      name: 'dsh-dsweb'

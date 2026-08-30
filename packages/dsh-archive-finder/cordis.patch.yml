@@ -1,0 +1,4 @@
+# dsh-archive-finder bundle patch: 侧边栏设置上方的「归档会话找回」入口（sidebar.footer.action 槽）。
+- insert:
+    - id: archive-finder
+      name: 'dsh-archive-finder'

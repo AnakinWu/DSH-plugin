@@ -1,0 +1,8 @@
+{
+  "name": "dsh-plugin-monorepo",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}

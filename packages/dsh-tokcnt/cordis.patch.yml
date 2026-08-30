@@ -1,0 +1,4 @@
+# dsh-tokcnt bundle patch: inserts the token-count plugin row into the web profile.
+- insert:
+    - id: tokcnt
+      name: 'dsh-tokcnt'
